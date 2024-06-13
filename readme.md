@@ -15,9 +15,9 @@ builder.Services.AddCors(c =>
 {
     c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
-```html
-<code style="color : Red">for JSON :Install Nuget Package - Microsoft.AspNetCore.Mvc.NewtonsoftJson</code>
-```
+
+&#9989;for JSON :Install Nuget Package - Microsoft.AspNetCore.Mvc.NewtonsoftJson</code>
+
 builder.Services.AddControllersWithViews().AddNewtonsoftJson(options =>
 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
 .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
@@ -53,7 +53,7 @@ namespace WebApplication1.Models
         public string PhotoFileName {  get; set; }
     }
 }
-<code style="color : Red">for Sql:Install Nuget Package - System.Data.SqlClient</code>
+&#9989;for Sql:Install Nuget Package - System.Data.SqlClient
 
 <h1>Controllers folder  </h1>
 

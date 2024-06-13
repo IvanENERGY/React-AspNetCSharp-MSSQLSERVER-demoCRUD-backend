@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A05E83FD-E8A8-462D-B99B-9AA2179B674D}|Solution Items{A05E83FD-E8A8-462D-B99B-9AA2179B674D}|C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A05E83FD-E8A8-462D-B99B-9AA2179B674D}|Solution Items{A05E83FD-E8A8-462D-B99B-9AA2179B674D}|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\photos\\anonymous.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\photos\\anonymous.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{A05E83FD-E8A8-462D-B99B-9AA2179B674D}|Solution Items{A05E83FD-E8A8-462D-B99B-9AA2179B674D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\photos\\anonymous.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\photos\\anonymous.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\documents\\learningaspapi\\webapplication1\\webapplication1\\photos\\276278.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{5F2D7F34-9F1D-4EC1-8421-A77ECB7B0B36}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\photos\\276278.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
@@ -74,93 +78,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 387,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T18:23:46.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Department.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Department.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T18:22:29.506Z",
+              "DocumentIndex": 0,
+              "Title": "readme.md",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\readme.md",
+              "RelativeDocumentMoniker": "readme.md",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\readme.md",
+              "RelativeToolTip": "readme.md",
+              "ViewState": "AQIAACgAAAAAAAAAAAAswDQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-06-13T12:24:24.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\DepartmentController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T03:30:44.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAALMAAAAARAAAAAALwMUAAAARAAAA",
+              "ViewState": "AQIAANIAAAAAAAAAAAAgwOcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T06:04:55.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
-              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T07:08:10.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T18:20:48.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
@@ -173,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -186,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
@@ -199,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "htmlpage.html",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\htmlpage.html",
               "RelativeDocumentMoniker": "WebApplication1\\htmlpage.html",
@@ -212,33 +160,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\libman.json",
-              "RelativeDocumentMoniker": "WebApplication1\\libman.json",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\libman.json",
-              "RelativeToolTip": "WebApplication1\\libman.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-12T03:33:29.088Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "anonymous.png -  [English (United States)] - PNG [700x567, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Photos\\anonymous.png",
+              "RelativeDocumentMoniker": "WebApplication1\\Photos\\anonymous.png",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Photos\\anonymous.png -  [English (United States)] - PNG [700x567, 32 bit, PNG]",
+              "RelativeToolTip": "WebApplication1\\Photos\\anonymous.png -  [English (United States)] - PNG [700x567, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-12T11:20:39.275Z",
+              "EditorCaption": " -  [English (United States)] - PNG [700x567, 32 bit, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-12T14:12:54.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -251,19 +185,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "anonymous.png -  [English (United States)] - PNG [700x567, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Photos\\anonymous.png",
-              "RelativeDocumentMoniker": "WebApplication1\\Photos\\anonymous.png",
-              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Photos\\anonymous.png -  [English (United States)] - PNG [700x567, 32 bit, PNG]",
-              "RelativeToolTip": "WebApplication1\\Photos\\anonymous.png -  [English (United States)] - PNG [700x567, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-06-12T11:20:39.275Z",
-              "EditorCaption": " -  [English (United States)] - PNG [700x567, 32 bit, PNG]"
+              "DocumentIndex": 2,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:30:44.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:20:48.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:08:10.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Department.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:22:29.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\libman.json",
+              "RelativeDocumentMoniker": "WebApplication1\\libman.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\libman.json",
+              "RelativeToolTip": "WebApplication1\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T03:33:29.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:23:46.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-12T14:12:54.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "276278.jpg -  [English (United States)] - Bitmap [600x300, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Photos\\276278.jpg",
               "RelativeDocumentMoniker": "WebApplication1\\Photos\\276278.jpg",
@@ -281,7 +298,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
