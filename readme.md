@@ -1,12 +1,12 @@
-<h1>This is test readme.md  --- ASP API in C#</h1>
-<p>https://www.youtube.com/watch?v=kJKb89BkwGo</p>
-
-<h1>Visual Studio config for connect db</h1>
-Create new Project ->ASP.net Core Web API
+<h1>This is readme.md  --- ASP API in C# (w/SQL Server) </h1>
+<p>Reference https://www.youtube.com/watch?v=kJKb89BkwGo</p>
 
 
+<h1>1. Create new Project ->ASP.net Core Web API</h1>
 
-<h1>Modify progam.cs</h1>
+
+
+<h1>2. Modify progam.cs</h1>
 
 <h2>before builder.build</h2>
 <pre>
@@ -37,7 +37,7 @@ app.UseStaticFiles(new StaticFileOptions
 });
 </pre>
 
-<h1>Modify appsettings.json</h1>
+<h1>3. Modify appsettings.json</h1>
 
 <pre>
 "ConnectionStrings": {
@@ -45,7 +45,7 @@ app.UseStaticFiles(new StaticFileOptions
 },//obtain by connect with server explorer
 </pre>
 
-<h1>Models folder</h1>
+<h1>4. Create Models folder</h1>
 
 Employee.cs
 <pre>
@@ -62,8 +62,9 @@ namespace WebApplication1.Models
 }
 </pre>
 
+<h1>5. Create Controllers folder  </h1>
+
 &#9989;for Sql:Install Nuget Package - System.Data.SqlClient
-<h1>Controllers folder  </h1>
 
 EmployeeController.cs
 
