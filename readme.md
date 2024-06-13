@@ -9,21 +9,25 @@ Create new Project ->ASP.net Core Web API
 <h1>Modify progam.cs</h1>
 
 <h2>before builder.build</h2>
-
+<pre>
 //CORS
 builder.Services.AddCors(c =>
 {
     c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
+</pre>
 
-&#9989;for JSON :Install Nuget Package - Microsoft.AspNetCore.Mvc.NewtonsoftJson</code>
+&#9989;for JSON :Install Nuget Package - Microsoft.AspNetCore.Mvc.NewtonsoftJson
 
+<pre>
 builder.Services.AddControllersWithViews().AddNewtonsoftJson(options =>
 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
 .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+</pre>
 
 <h2>Before app.run</h2>
 
+<pre>
 //for FileStorage in Server 
 app.UseStaticFiles(new StaticFileOptions
 {
@@ -31,17 +35,20 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/Photos"
 
 });
+</pre>
 
 <h1>Modify appsettings.json</h1>
 
-  "ConnectionStrings": {
-    "EmployeeAppConn": "Data Source=IvanPC2023;Initial Catalog=test_db;Integrated Security=True"
-  },//obtain by connect with server explorer
- 
+<pre>
+"ConnectionStrings": {
+"EmployeeAppConn": "Data Source=IvanPC2023;Initial Catalog=test_db;Integrated Security=True"
+},//obtain by connect with server explorer
+</pre>
+
 <h1>Models folder</h1>
 
- <u>Employee.cs </u>
-
+Employee.cs
+<pre>
 namespace WebApplication1.Models
 {
     public class Employee
@@ -53,11 +60,12 @@ namespace WebApplication1.Models
         public string PhotoFileName {  get; set; }
     }
 }
-&#9989;for Sql:Install Nuget Package - System.Data.SqlClient
+</pre>
 
+&#9989;for Sql:Install Nuget Package - System.Data.SqlClient
 <h1>Controllers folder  </h1>
 
- <u>EmployeeController.cs</u>
+EmployeeController.cs
 
  <pre>
 
