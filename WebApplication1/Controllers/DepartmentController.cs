@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 using System.Data;
 using System.Data.SqlClient;
+using System.Xml.Linq;
 using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
@@ -16,7 +18,8 @@ namespace WebApplication1.Controllers
         {
             _configuration = configuration;
         }
-        //api for get all department details
+
+        // GET:  /api/department   : get all department details
         [HttpGet]
         public JsonResult Get()
         { //stored pro/query/entity framework
@@ -29,7 +32,8 @@ namespace WebApplication1.Controllers
             using (SqlConnection myCon= new SqlConnection(sqlDataSource))
             {
                 myCon.Open();
-                using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                /* using (SqlCommand myCommand = new SqlCommand(query, myCon))*/
+                using (SqlCommand myCommand = new SqlCommand("sp_GetAllDepartment", myCon))
                 {
                     myReader= myCommand.ExecuteReader();
                     dataTable.Load(myReader);
@@ -55,12 +59,15 @@ namespace WebApplication1.Controllers
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
                 {
-                    myCommand.Parameters.AddWithValue("@DepartmentName",dep.DepartmentName);
+                    myCommand.Parameters.AddWithValue("@DepartmentName", dep.DepartmentName);
                     myReader = myCommand.ExecuteReader();
                     dataTable.Load(myReader);
                     myReader.Close();
                     myCon.Close();
                 }
+
+
+
             }
             return new JsonResult("Added successfully");
         }
@@ -113,7 +120,9 @@ namespace WebApplication1.Controllers
                         myReader.Close();
                         myCon.Close();
                     }
-                }
+
+
+            }
                 return new JsonResult("delete successfully");
             }
 

@@ -4,26 +4,31 @@ using System.Data;
 using WebApplication1.Models;
 using System.Runtime.Intrinsics.Arm;
 
-//test
 namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
 
-    { //to read the connection string from config file, we need dependency inject
-        private readonly IConfiguration _configuration;
-        //to use physical path of the photo, we need dependency inject
-        private readonly IWebHostEnvironment _env;  
-        public EmployeeController(IConfiguration configuration,IWebHostEnvironment env)
+    {
+        /*****Dependency Injection**********/
+        private readonly IConfiguration _configuration;//to read the connection string from config file, we need dependency inject
+
+        private readonly IWebHostEnvironment _env;//to use physical path of the photo, we need dependency inject
+        public EmployeeController(IConfiguration configuration, IWebHostEnvironment env)
         {
             _configuration = configuration;
-            _env = env; 
+            _env = env;
         }
-        //api for get all department details
+        /*************/
+
+
+
+        //READ
+        //GET /api/Employee   Get all Employees
         [HttpGet]
         public JsonResult Get()
-        { //stored pro/query/entity framework
+        {
             string query = @"
                 select EmployeeId,EmployeeName,Department,
                 convert(varchar(10),DateOfJoining,120) as DateOfJoining,PhotoFileName
@@ -37,7 +42,13 @@ namespace WebApplication1.Controllers
             {
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                /*using (SqlCommand myCommand = new SqlCommand("sp_GetAllEmployee", myCon))*/
+                /*The stored proc sp_GetAllEmployee: 
+                 * Input  -Nothing
+                 * Output -SelectResult
+                 */
                 {
+                   /*myCommand.CommandType = CommandType.StoredProcedure;*/
                     myReader = myCommand.ExecuteReader();
                     dataTable.Load(myReader);
                     myReader.Close();
@@ -46,10 +57,50 @@ namespace WebApplication1.Controllers
             }
             return new JsonResult(dataTable);
         }
-        //api for creating
+
+        //READ ONE
+        //GET /api/Employee/:id   Get one Employee
+        [HttpGet("{id}")]
+        public JsonResult Get(int id)
+        {
+            string query = @"
+                select EmployeeId,EmployeeName,Department,
+                convert(varchar(10),DateOfJoining,120) as DateOfJoining,PhotoFileName
+                from
+                dbo.Employee
+                where EmployeeId=@id
+                ";
+            DataTable dataTable = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("EmployeeAppConn");
+            SqlDataReader myReader;
+            using (SqlConnection myCon = new SqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                /*using (SqlCommand myCommand = new SqlCommand("sp_GetOneEmployee", myCon))*/
+                
+                /*The stored proc sp_GetOneEmployee: 
+                    * Input  -id
+                    * Output -SelectResult
+                */
+                {
+                /*  myCommand.CommandType = CommandType.StoredProcedure;*/
+                    myCommand.Parameters.AddWithValue("@id", id);
+                    myReader = myCommand.ExecuteReader();
+                    dataTable.Load(myReader);
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+            return new JsonResult(dataTable);
+        }
+
+
+        //CREATE
+        //POST /api/Employee   Create one Employee
         [HttpPost]
         public JsonResult Post(Employee emp)
-        { //stored pro/query/entity framework
+        { 
             string query = @"
                 insert into dbo.Employee
                 (EmployeeName,Department,DateOfJoining,PhotoFileName)
@@ -62,7 +113,14 @@ namespace WebApplication1.Controllers
             {
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                //using (SqlCommand myCommand = new SqlCommand("sp_CreateEmployee", myCon))
+
+                /*The stored proc sp_CreateEmployee: 
+                     * Input  -@EmployeeName,@Department,@DateOfJoining,@PhotoFileName
+                     * Output -SelectResult
+                */
                 {
+                //  myCommand.CommandType = CommandType.StoredProcedure;
                     myCommand.Parameters.AddWithValue("@EmployeeName", emp.EmployeeName);
                     myCommand.Parameters.AddWithValue("@Department", emp.Department);
                     myCommand.Parameters.AddWithValue("@DateOfJoining", emp.DateOfJoining);
@@ -73,13 +131,14 @@ namespace WebApplication1.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult("Added successfully");
+            return new JsonResult(dataTable);// or new JsonResult("Added successfully")
         }
 
-
+        //UPDATE
+        //PUT /api/Employee   Update one Employee
         [HttpPut]
         public JsonResult Put(Employee emp)
-        { //stored pro/query/entity framework
+        { 
             string query = @"
                 update dbo.Employee
                 set EmployeeName= @EmployeeName,
@@ -95,7 +154,13 @@ namespace WebApplication1.Controllers
             {
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                //using (SqlCommand myCommand = new SqlCommand("sp_UpdateEmployee", myCon))
+                /*The stored proc sp_UpdateEmployee: 
+                     * Input  -@EmployeeName,@Department,@DateOfJoining,@PhotoFileName,@EmployeeId
+                     * Output -SelectResult
+                */
                 {
+                    //myCommand.CommandType = CommandType.StoredProcedure;
                     myCommand.Parameters.AddWithValue("@EmployeeName", emp.EmployeeName);
                     myCommand.Parameters.AddWithValue("@Department", emp.Department);
                     myCommand.Parameters.AddWithValue("@DateOfJoining", emp.DateOfJoining);
@@ -107,11 +172,14 @@ namespace WebApplication1.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult("Update successfully");
+            return new JsonResult(dataTable); //or new JsonResult("Update successfully")
         }
+
+        //DELETE
+        //DELETE /api/Employee/:id   Delete one Employee
         [HttpDelete("{id}")]
         public JsonResult Delete(int id)
-        { //stored pro/query/entity framework
+        { 
             string query = @"
                         delete from dbo.Employee
                         where EmployeeId=@EmployeeId
@@ -123,7 +191,13 @@ namespace WebApplication1.Controllers
             {
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
+                //using (SqlCommand myCommand = new SqlCommand("sp_DeleteEmployee", myCon))
+                /*The stored proc sp_DeleteEmployee: 
+                     * Input  -@EmployeeId
+                     * Output -SelectResult
+                */
                 {
+                    //myCommand.CommandType = CommandType.StoredProcedure;
                     myCommand.Parameters.AddWithValue("@EmployeeId", id);
                     myReader = myCommand.ExecuteReader();
                     dataTable.Load(myReader);
@@ -131,9 +205,10 @@ namespace WebApplication1.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult("delete successfully");
+            return new JsonResult(dataTable);//"Delete successfully"
         }
 
+        // POST /api/Employee/saveFile
         [Route("SaveFile")]
         [HttpPost]
         public JsonResult SaveFile()
