@@ -1,10 +1,7 @@
 <h1>This is readme.md  --- ASP API in C# (w/SQL Server) </h1>
-<p>Reference https://www.youtube.com/watch?v=kJKb89BkwGo</p>
 
 
 <h1>1. Create new Project ->ASP.net Core Web API</h1>
-
-
 
 <h1>2. Modify progam.cs</h1>
 

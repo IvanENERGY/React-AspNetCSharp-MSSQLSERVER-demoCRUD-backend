@@ -78,8 +78,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 387,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -88,7 +92,7 @@
               "RelativeDocumentMoniker": "readme.md",
               "ToolTip": "C:\\Users\\user\\Documents\\learningASPAPI\\WebApplication1\\readme.md",
               "RelativeToolTip": "readme.md",
-              "ViewState": "AQIAACgAAAAAAAAAAAAswDQAAAAyAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-06-13T12:24:24.551Z",
               "EditorCaption": ""
@@ -260,10 +264,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T18:23:46.036Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
