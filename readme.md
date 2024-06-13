@@ -1,5 +1,5 @@
-<h1>This is readme.md  --- ASP API in C# (w/SQL Server) </h1>
-
+<h1>This is readme.md  --- Creating ASP API in C# (w/SQL Server) </h1>
+<p>SQL table creation script & inital data insert script & stored procedures script are placed inside WebApplication1/howIDoDbpart folder</p>
 
 <h1>1. Create new Project ->ASP.net Core Web API</h1>
 
