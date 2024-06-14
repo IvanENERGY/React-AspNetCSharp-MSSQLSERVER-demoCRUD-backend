@@ -347,9 +347,20 @@ namespace WebApplication1.Controllers
   <li>Go to the server machine, locate the wwwroot folder, create a new folder for hosting the api </li>
     <p>[WebApplication1/Deployment-readme-screenshot/8.png]</p>
   <img width="709" alt="8" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ef7e9379-683d-4623-a578-0abc01790f7c">
+   <li>Right Click Properties of the folder->set security->add new User(everyone) </li>
+    <p>[WebApplication1/Deployment-readme-screenshot/30.png]</p>
+  ![30](https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8fac73f4-da20-431b-8a65-b4ebc9d75077)
+   <li>Configure the permission of Everyone </li>
+    <p>[WebApplication1/Deployment-readme-screenshot/31.png]</p>
+![31](https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/73507859-1fd4-40dd-88df-54758de9136e)
+ 
   <li>Copy all the files to the api folder </li>
     <p>[WebApplication1/Deployment-readme-screenshot/9.png]</p>
   <img width="748" alt="9" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/81ab5b3b-868f-4913-93c7-0524365baee2">
+    
+    
+   
+  
   <li>Create sites on IIS ; assign the directory and port number </li>
     <p>[WebApplication1/Deployment-readme-screenshot/10.png]</p>
   <img width="987" alt="10" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/84adcf6e-dbda-4c20-aca0-b1b0230a07d6">
