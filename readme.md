@@ -317,50 +317,61 @@ namespace WebApplication1.Controllers
  <h2>Setup</h2>
  <ol>
   <li>Install the .Net 8 hosting bundle  </li>
-   [SolutionItem/screenshot/16.png]
+   [Deployment-readme-screenshot/16.png]
  <li>Publish the web application </li>
- [SolutionItem/screenshot/1.png]
+ [Deployment-readme-screenshot/1.png]
  <li>Click "Add a publish profile"</li>
- [SolutionItem/screenshot/2.png]
+ [Deployment-readme-screenshot/2.png]
  <li>Choose Folder</li>
- [SolutionItem/screenshot/3.png]
+ [Deployment-readme-screenshot/3.png]
  <li>Use default path</li>
-  [SolutionItem/screenshot/4.png]
+  [Deployment-readme-screenshot/4.png]
  <li>Configure the publish settings</li>
-  [SolutionItem/screenshot/5.png]
+  [Deployment-readme-screenshot/5.png]
    <li>Click publish</li>
-  [SolutionItem/screenshot/6.png]
+  [Deployment-readme-screenshot/6.png]
   <li>Click open folder->Copy all files within the published folder</li>
-  [SolutionItem/screenshot/7.png]
+  [Deployment-readme-screenshot/7.png]
   <li>Go to the server machine, locate the wwwroot folder </li>
-  [SolutionItem/screenshot/8.png]
+  [Deployment-readme-screenshot/8.png]
   <li>Copy all the files to the wwwroot folder </li>
-  [SolutionItem/screenshot/9.png]
+  [Deployment-readme-screenshot/9.png]
   <li>Create sites on IIS ; assign the diretory and port number </li>
-  [SolutionItem/screenshot/10.png]
+  [Deployment-readme-screenshot/10.png]
 
  </ol>
- <p>The page should be working on <localip>:<port></p>
+ <p>The page should be working on &lt;localip>:&lt;port></p>
 
  <h2>IF any error exist: </h2>
+ <ol>
  <li>Open "Event Viewer" -> choose Window Logs->Application</li>
- [SolutionItem/screenshot/12.png]
+ [Deployment-readme-screenshot/12.png]
  <li>Common err 1 : File Storage path not configured appropriately </li>
- [SolutionItem/screenshot/13.png]
+ [Deployment-readme-screenshot/13.png]
  <p>Solution: Since our api use folder path for storage, we need to add those paths to the publish folder as well  </p>
  <p>For example,we need a folder called "Photos" in our program</p>
-  [SolutionItem/screenshot/14.png]
+  [Deployment-readme-screenshot/14.png]
    <p>We need to add the folder to the published folder inside wwwroot </p>
-     [SolutionItem/screenshot/15.png]
+     [Deployment-readme-screenshot/15.png]
   <li>Common err 2 :SQL server connect unsuccessful </li>
- [SolutionItem/screenshot/17.png]
+ [Deployment-readme-screenshot/17.png]
  <p>Solution: Add the corresponding user in SQL database; In this case, it is "IIS APPPOOL\employeeapi"</p>
  <p>Add the user to both SQL Server Login User & DatabaseUser; Assign db-owner schema for the user </p>
-  [SolutionItem/screenshot/18.png]
-  [SolutionItem/screenshot/19.png]
-  [SolutionItem/screenshot/20.png]
-  [SolutionItem/screenshot/21.png]
- [SolutionItem/screenshot/22.png]
-  [SolutionItem/screenshot/23.png]
+  [Deployment-readme-screenshot/18.png]
+  [Deployment-readme-screenshot/19.png]
+  [Deployment-readme-screenshot/20.png]
+  [Deployment-readme-screenshot/21.png]
+ [Deployment-readme-screenshot/22.png]
+  [Deployment-readme-screenshot/23.png]
 
+ </ol>
+ <h2>For other devices on LAN to access API, new firewall rules might need to be added </h2>
+ <ol>
+ <li>Go to firewall->advanced setting-> add new incoming rules </li>
+  [Deployment-readme-screenshot/24.png]
+  [Deployment-readme-screenshot/25.png]
+  [Deployment-readme-screenshot/26.png]
+  [Deployment-readme-screenshot/27.png]
+  [Deployment-readme-screenshot/28.png]
+  [Deployment-readme-screenshot/29.png]
  </ol>
