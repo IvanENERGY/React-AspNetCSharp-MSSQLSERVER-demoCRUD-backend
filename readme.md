@@ -353,11 +353,11 @@ namespace WebApplication1.Controllers
  <p>The page should be working on &lt;localip>:&lt;port></p>
 
  <h2>IF any error exist: </h2>
- <ol>
- <li>Open "Event Viewer" -> choose Window Logs->Application</li>
+
+ <p>Open "Event Viewer" -> choose Window Logs->Application</p>
  [Deployment-readme-screenshot/12.png]
  <img width="916" alt="12" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/cb1acfed-676f-43e7-9383-23676c448273">
- <li>Common err 1 : File Storage path not configured appropriately </li>
+ <h3>Common err 1 : File Storage path not configured appropriately </h3>
  [Deployment-readme-screenshot/13.png]
  <img width="794" alt="13" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/1ff51f38-1c7f-4f5e-86fa-8b2289dfe1aa">
  <p>Solution: Since our api use folder path for storage, we need to add those paths to the publish folder as well  </p>
@@ -367,38 +367,32 @@ namespace WebApplication1.Controllers
    <p>We need to add the folder to the published folder inside wwwroot </p>
      [Deployment-readme-screenshot/15.png]
      <img width="557" alt="15" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8cada850-dd17-407c-af55-2dbedaf724a1">
-  <li>Common err 2 :SQL server connect unsuccessful </li>
+  <h3>Common err 2 :SQL server connect unsuccessful </h3>
  [Deployment-readme-screenshot/17.png]
  <img width="1342" alt="17" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/a62f8d33-1025-4d6e-a554-25b6424e2e1a">
  <p>Solution: Add the corresponding user in SQL database; In this case, it is "IIS APPPOOL\employeeapi"</p>
  <p>Add the user to both SQL Server Login User & DatabaseUser; Assign db-owner schema for the user </p>
-  [Deployment-readme-screenshot/18.png]
-  [Deployment-readme-screenshot/19.png]
-  [Deployment-readme-screenshot/20.png]
-  [Deployment-readme-screenshot/21.png]
- [Deployment-readme-screenshot/22.png]
-  [Deployment-readme-screenshot/23.png]
-  <img width="527" alt="22" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/2ba106d5-b5c3-4de9-8720-5ec5c9c8f320">
-<img width="527" alt="21" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ee674508-3442-4440-87d3-1f22cea5639c">
-<img width="200" alt="20" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/316b152f-7151-4aab-976d-67ecf833146b">
-<img width="528" alt="19" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/97cbf286-3c1b-4950-adec-ad5c9a9a6475">
-<img width="345" alt="18" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ae1ac19f-a15a-4a96-a795-00bb08b5a3c3">
-<img width="512" alt="23" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/15b41198-233a-4f2d-a437-b6363d4d7675">
+  [Deployment-readme-screenshot/18.png]<img width="345" alt="18" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ae1ac19f-a15a-4a96-a795-00bb08b5a3c3">
+  [Deployment-readme-screenshot/19.png]<img width="528" alt="19" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/97cbf286-3c1b-4950-adec-ad5c9a9a6475">
+  [Deployment-readme-screenshot/20.png]<img width="200" alt="20" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/316b152f-7151-4aab-976d-67ecf833146b">
+  [Deployment-readme-screenshot/21.png]<img width="527" alt="21" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ee674508-3442-4440-87d3-1f22cea5639c">
+ [Deployment-readme-screenshot/22.png] <img width="527" alt="22" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/2ba106d5-b5c3-4de9-8720-5ec5c9c8f320">
+  [Deployment-readme-screenshot/23.png]<img width="512" alt="23" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/15b41198-233a-4f2d-a437-b6363d4d7675">
 
- </ol>
+
  <h2>For other devices on LAN to access API, new firewall rules might need to be added </h2>
  <ol>
  <li>Go to firewall->advanced setting-> add new incoming rules </li>
-  [Deployment-readme-screenshot/24.png]
-  [Deployment-readme-screenshot/25.png]
-  [Deployment-readme-screenshot/26.png]
-  [Deployment-readme-screenshot/27.png]
-  [Deployment-readme-screenshot/28.png]
-  [Deployment-readme-screenshot/29.png]
-  <img width="533" alt="29" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/9528eb3f-425f-4319-936c-72cbd93695ff">
-<img width="533" alt="28" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/4ed49a52-74f0-444d-8ac9-431705ccee0b">
-<img width="535" alt="27" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/60231d74-a305-4371-a5af-f0793a09bfa8">
-<img width="535" alt="26" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/b13a9b8c-4d2e-4cea-8d2a-4c17e24ba950">
-<img width="536" alt="25" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/6abe9368-493b-4080-8f14-cb3f980e94da">
-<img width="1071" alt="24" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/b66f4de7-99f2-4759-aee9-d48ba0aff7d8">
+  [Deployment-readme-screenshot/24.png]<img width="1071" alt="24" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/b66f4de7-99f2-4759-aee9-d48ba0aff7d8">
+  [Deployment-readme-screenshot/25.png]<img width="536" alt="25" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/6abe9368-493b-4080-8f14-cb3f980e94da">
+  [Deployment-readme-screenshot/26.png]<img width="535" alt="26" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/b13a9b8c-4d2e-4cea-8d2a-4c17e24ba950">
+  [Deployment-readme-screenshot/27.png]<img width="535" alt="27" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/60231d74-a305-4371-a5af-f0793a09bfa8">
+  [Deployment-readme-screenshot/28.png]<img width="533" alt="28" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/4ed49a52-74f0-444d-8ac9-431705ccee0b">
+  [Deployment-readme-screenshot/29.png]<img width="533" alt="29" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/9528eb3f-425f-4319-936c-72cbd93695ff">
+
+
+  
+
+
+
  </ol>
