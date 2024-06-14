@@ -131,7 +131,7 @@ namespace WebApplication1.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult(dataTable);// or new JsonResult("Added successfully")
+            return new JsonResult("Added successfully");// or new JsonResult(dataTable)
         }
 
         //UPDATE
@@ -172,7 +172,7 @@ namespace WebApplication1.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult(dataTable); //or new JsonResult("Update successfully")
+            return new JsonResult("Update successfully"); //or new JsonResult(dataTable)
         }
 
         //DELETE
@@ -205,7 +205,7 @@ namespace WebApplication1.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult(dataTable);//"Delete successfully"
+            return new JsonResult("Delete successfully");//or new JsonResult(dataTable)
         }
 
         // POST /api/Employee/saveFile
@@ -228,7 +228,7 @@ namespace WebApplication1.Controllers
             }
             catch (Exception ex)
             {
-                return new JsonResult("annoymous.png");
+                return new JsonResult("anonymous.png");
             }
         }
 

@@ -11,6 +11,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshot", "screenshot", "{8F793547-AA3C-4D62-A602-5D4C6F9F3ACB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\aspemployeeimg\1.png = ..\..\..\Downloads\aspemployeeimg\1.png
+		..\..\..\Downloads\aspemployeeimg\10.png = ..\..\..\Downloads\aspemployeeimg\10.png
+		..\..\..\Downloads\aspemployeeimg\12.png = ..\..\..\Downloads\aspemployeeimg\12.png
+		..\..\..\Downloads\aspemployeeimg\13.png = ..\..\..\Downloads\aspemployeeimg\13.png
+		..\..\..\Downloads\aspemployeeimg\14.png = ..\..\..\Downloads\aspemployeeimg\14.png
+		..\..\..\Downloads\aspemployeeimg\15.png = ..\..\..\Downloads\aspemployeeimg\15.png
+		..\..\..\Downloads\aspemployeeimg\16.png = ..\..\..\Downloads\aspemployeeimg\16.png
+		..\..\..\Downloads\aspemployeeimg\17.png = ..\..\..\Downloads\aspemployeeimg\17.png
+		..\..\..\Downloads\aspemployeeimg\18.png = ..\..\..\Downloads\aspemployeeimg\18.png
+		..\..\..\Downloads\aspemployeeimg\19.png = ..\..\..\Downloads\aspemployeeimg\19.png
+		..\..\..\Downloads\aspemployeeimg\2.png = ..\..\..\Downloads\aspemployeeimg\2.png
+		..\..\..\Downloads\aspemployeeimg\20.png = ..\..\..\Downloads\aspemployeeimg\20.png
+		..\..\..\Downloads\aspemployeeimg\21.png = ..\..\..\Downloads\aspemployeeimg\21.png
+		..\..\..\Downloads\aspemployeeimg\22.png = ..\..\..\Downloads\aspemployeeimg\22.png
+		..\..\..\Downloads\aspemployeeimg\23.png = ..\..\..\Downloads\aspemployeeimg\23.png
+		..\..\..\Downloads\aspemployeeimg\3.png = ..\..\..\Downloads\aspemployeeimg\3.png
+		..\..\..\Downloads\aspemployeeimg\4.png = ..\..\..\Downloads\aspemployeeimg\4.png
+		..\..\..\Downloads\aspemployeeimg\5.png = ..\..\..\Downloads\aspemployeeimg\5.png
+		..\..\..\Downloads\aspemployeeimg\6.png = ..\..\..\Downloads\aspemployeeimg\6.png
+		..\..\..\Downloads\aspemployeeimg\7.png = ..\..\..\Downloads\aspemployeeimg\7.png
+		..\..\..\Downloads\aspemployeeimg\8.png = ..\..\..\Downloads\aspemployeeimg\8.png
+		..\..\..\Downloads\aspemployeeimg\9.png = ..\..\..\Downloads\aspemployeeimg\9.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +50,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F793547-AA3C-4D62-A602-5D4C6F9F3ACB} = {A05E83FD-E8A8-462D-B99B-9AA2179B674D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8692D706-6CDD-40B3-9671-688E65A953BC}
