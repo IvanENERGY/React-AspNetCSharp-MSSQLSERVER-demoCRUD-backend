@@ -318,27 +318,37 @@ namespace WebApplication1.Controllers
  <ol>
   <li>Install the .Net 8 hosting bundle  </li>
    [Deployment-readme-screenshot/16.png]
+   <img width="1349" alt="16" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/78d99869-339a-44e2-ac96-a620fdb212b2">
  <li>Publish the web application </li>
  [Deployment-readme-screenshot/1.png]
+ <img width="530" alt="1" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ff2e6fac-46cd-42d2-a701-bfad5cb18021">
  <li>Click "Add a publish profile"</li>
  [Deployment-readme-screenshot/2.png]
+ <img width="1043" alt="2" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/e10ca84a-2a10-4b84-95dc-6325eecd983d">
  <li>Choose Folder</li>
  [Deployment-readme-screenshot/3.png]
+ <img width="638" alt="3" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/52430af3-6485-415e-a046-3eb87b9c40d9">
  <li>Use default path</li>
   [Deployment-readme-screenshot/4.png]
+  <img width="592" alt="4" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8d6f9119-4814-4a33-b785-ade0940b675e">
  <li>Configure the publish settings</li>
   [Deployment-readme-screenshot/5.png]
+  <img width="1206" alt="5" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/7d76b86e-f2d5-4106-8c58-79603e6eea02">
    <li>Click publish</li>
   [Deployment-readme-screenshot/6.png]
+  <img width="770" alt="6" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ecf08b41-1728-4bc3-a7e4-7da740fd1bdd">
   <li>Click open folder->Copy all files within the published folder</li>
   [Deployment-readme-screenshot/7.png]
+  <img width="1169" alt="7" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/4895b5c3-b139-441d-b109-5ac6b60f5558">
   <li>Go to the server machine, locate the wwwroot folder </li>
   [Deployment-readme-screenshot/8.png]
+  <img width="709" alt="8" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ef7e9379-683d-4623-a578-0abc01790f7c">
   <li>Copy all the files to the wwwroot folder </li>
   [Deployment-readme-screenshot/9.png]
+  <img width="748" alt="9" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/81ab5b3b-868f-4913-93c7-0524365baee2">
   <li>Create sites on IIS ; assign the diretory and port number </li>
   [Deployment-readme-screenshot/10.png]
-
+  <img width="987" alt="10" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/84adcf6e-dbda-4c20-aca0-b1b0230a07d6">
  </ol>
  <p>The page should be working on &lt;localip>:&lt;port></p>
 
@@ -346,15 +356,20 @@ namespace WebApplication1.Controllers
  <ol>
  <li>Open "Event Viewer" -> choose Window Logs->Application</li>
  [Deployment-readme-screenshot/12.png]
+ <img width="916" alt="12" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/cb1acfed-676f-43e7-9383-23676c448273">
  <li>Common err 1 : File Storage path not configured appropriately </li>
  [Deployment-readme-screenshot/13.png]
+ <img width="794" alt="13" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/1ff51f38-1c7f-4f5e-86fa-8b2289dfe1aa">
  <p>Solution: Since our api use folder path for storage, we need to add those paths to the publish folder as well  </p>
  <p>For example,we need a folder called "Photos" in our program</p>
   [Deployment-readme-screenshot/14.png]
+  <img width="1102" alt="14" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/9abc980b-95e5-4f74-b8dc-74a87963b4bf">
    <p>We need to add the folder to the published folder inside wwwroot </p>
      [Deployment-readme-screenshot/15.png]
+     <img width="557" alt="15" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8cada850-dd17-407c-af55-2dbedaf724a1">
   <li>Common err 2 :SQL server connect unsuccessful </li>
  [Deployment-readme-screenshot/17.png]
+ <img width="1342" alt="17" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/a62f8d33-1025-4d6e-a554-25b6424e2e1a">
  <p>Solution: Add the corresponding user in SQL database; In this case, it is "IIS APPPOOL\employeeapi"</p>
  <p>Add the user to both SQL Server Login User & DatabaseUser; Assign db-owner schema for the user </p>
   [Deployment-readme-screenshot/18.png]
@@ -363,6 +378,12 @@ namespace WebApplication1.Controllers
   [Deployment-readme-screenshot/21.png]
  [Deployment-readme-screenshot/22.png]
   [Deployment-readme-screenshot/23.png]
+  <img width="527" alt="22" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/2ba106d5-b5c3-4de9-8720-5ec5c9c8f320">
+<img width="527" alt="21" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ee674508-3442-4440-87d3-1f22cea5639c">
+<img width="200" alt="20" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/316b152f-7151-4aab-976d-67ecf833146b">
+<img width="528" alt="19" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/97cbf286-3c1b-4950-adec-ad5c9a9a6475">
+<img width="345" alt="18" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ae1ac19f-a15a-4a96-a795-00bb08b5a3c3">
+<img width="512" alt="23" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/15b41198-233a-4f2d-a437-b6363d4d7675">
 
  </ol>
  <h2>For other devices on LAN to access API, new firewall rules might need to be added </h2>
@@ -374,4 +395,10 @@ namespace WebApplication1.Controllers
   [Deployment-readme-screenshot/27.png]
   [Deployment-readme-screenshot/28.png]
   [Deployment-readme-screenshot/29.png]
+  <img width="533" alt="29" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/9528eb3f-425f-4319-936c-72cbd93695ff">
+<img width="533" alt="28" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/4ed49a52-74f0-444d-8ac9-431705ccee0b">
+<img width="535" alt="27" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/60231d74-a305-4371-a5af-f0793a09bfa8">
+<img width="535" alt="26" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/b13a9b8c-4d2e-4cea-8d2a-4c17e24ba950">
+<img width="536" alt="25" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/6abe9368-493b-4080-8f14-cb3f980e94da">
+<img width="1071" alt="24" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/b66f4de7-99f2-4759-aee9-d48ba0aff7d8">
  </ol>
