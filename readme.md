@@ -1,10 +1,10 @@
-C# .net Part
 
-<hr>
+
 <p>This is CRUD demo full-stack application built using React,ASP.net(C#)
 SQL server. </p>
 <p>Frontend: React (https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-frontend)</p>
-<p>Backend: SQL server & API written in C# (This Repo)</p>
+<p><strong>Backend: SQL server & API written in C# (This Repo)</strong></p>
+<hr>
 <h1>&#128310;Guide For Creating ASP API in C# (w/SQL Server) </h1>
 <p>SQL table creation script & inital data insert script & stored procedures script are placed inside <i>WebApplication1/howIDoDbpart folder </i></p>
 
