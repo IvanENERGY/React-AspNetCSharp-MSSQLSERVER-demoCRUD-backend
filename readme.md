@@ -313,7 +313,7 @@ namespace WebApplication1.Controllers
 
  </pre>
 
- <h1>Deploy to Local Area Network (via IIS; such that the API is accessible by every devices on LAN) </h1>
+ <h1>&#128640;Deploy to Local Area Network (via IIS; such that the API is accessible by every devices on LAN) </h1>
  <h2>Setup</h2>
  <ol>
   <li>Install the .Net 8 hosting bundle  </li>
@@ -357,7 +357,7 @@ namespace WebApplication1.Controllers
  <p>Open "Event Viewer" -> choose Window Logs->Application</p>
  [Deployment-readme-screenshot/12.png]
  <img width="916" alt="12" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/cb1acfed-676f-43e7-9383-23676c448273">
- <h3>Common err 1 : File Storage path not configured appropriately </h3>
+ <h3>&#10060;Common err 1 : File Storage path not configured appropriately </h3>
  [Deployment-readme-screenshot/13.png]
  <img width="794" alt="13" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/1ff51f38-1c7f-4f5e-86fa-8b2289dfe1aa">
  <p>Solution: Since our api use folder path for storage, we need to add those paths to the publish folder as well  </p>
@@ -367,7 +367,7 @@ namespace WebApplication1.Controllers
    <p>We need to add the folder to the published folder inside wwwroot </p>
      [Deployment-readme-screenshot/15.png]
      <img width="557" alt="15" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8cada850-dd17-407c-af55-2dbedaf724a1">
-  <h3>Common err 2 :SQL server connect unsuccessful </h3>
+  <h3>&#10060;Common err 2 :SQL server connect unsuccessful </h3>
  [Deployment-readme-screenshot/17.png]
  <img width="1342" alt="17" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/a62f8d33-1025-4d6e-a554-25b6424e2e1a">
  <p>Solution: Add the corresponding user in SQL database; In this case, it is "IIS APPPOOL\employeeapi"</p>
