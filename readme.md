@@ -349,10 +349,11 @@ namespace WebApplication1.Controllers
   <img width="709" alt="8" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ef7e9379-683d-4623-a578-0abc01790f7c">
    <li>Right Click Properties of the folder->set security->add new User(everyone) </li>
     <p>[WebApplication1/Deployment-readme-screenshot/30.png]</p>
-  ![30](https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8fac73f4-da20-431b-8a65-b4ebc9d75077)
+    <img src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/8fac73f4-da20-431b-8a65-b4ebc9d75077">
    <li>Configure the permission of Everyone </li>
     <p>[WebApplication1/Deployment-readme-screenshot/31.png]</p>
-![31](https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/73507859-1fd4-40dd-88df-54758de9136e)
+    <img src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/73507859-1fd4-40dd-88df-54758de9136e">
+
  
   <li>Copy all the files to the api folder </li>
     <p>[WebApplication1/Deployment-readme-screenshot/9.png]</p>
