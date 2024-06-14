@@ -340,13 +340,13 @@ namespace WebApplication1.Controllers
   <li>Click open folder->Copy all files within the published folder</li>
   [Deployment-readme-screenshot/7.png]
   <img width="1169" alt="7" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/4895b5c3-b139-441d-b109-5ac6b60f5558">
-  <li>Go to the server machine, locate the wwwroot folder </li>
+  <li>Go to the server machine, locate the wwwroot folder, create a new folder for hosting the api </li>
   [Deployment-readme-screenshot/8.png]
   <img width="709" alt="8" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/ef7e9379-683d-4623-a578-0abc01790f7c">
-  <li>Copy all the files to the wwwroot folder </li>
+  <li>Copy all the files to the api folder </li>
   [Deployment-readme-screenshot/9.png]
   <img width="748" alt="9" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/81ab5b3b-868f-4913-93c7-0524365baee2">
-  <li>Create sites on IIS ; assign the diretory and port number </li>
+  <li>Create sites on IIS ; assign the directory and port number </li>
   [Deployment-readme-screenshot/10.png]
   <img width="987" alt="10" src="https://github.com/IvanENERGY/REACT-ASPNETC-MSSQLSERVER-demoCRUD-backend/assets/90034836/84adcf6e-dbda-4c20-aca0-b1b0230a07d6">
  </ol>
